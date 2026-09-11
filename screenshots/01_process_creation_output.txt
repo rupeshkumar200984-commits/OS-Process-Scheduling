@@ -1,0 +1,28 @@
+╔════════════════════════════════════════════════════════════════════════════════╗
+║                      PROCESS CREATION - OUTPUT SCREENSHOT                       ║
+╚════════════════════════════════════════════════════════════════════════════════╝
+
+===== PROCESS CREATION =====
+Parent PID: 15028
+
+--- CHILD PROCESS ---
+Child PID: 9352
+Parent PID: 15028
+Child is working...
+
+Child process finished.
+
+===== FILE OPERATION =====
+File data: Operating Systems Practical
+File operation successful.
+
+===== ERROR HANDLING =====
+Error handled: File not found.
+
+Program completed normally.
+
+════════════════════════════════════════════════════════════════════════════════
+Generated: 2026-09-11
+Script: 01_process_creation.py
+Status: ✓ SUCCESSFUL
+════════════════════════════════════════════════════════════════════════════════

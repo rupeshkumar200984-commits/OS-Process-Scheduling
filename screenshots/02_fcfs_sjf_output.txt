@@ -1,0 +1,43 @@
+╔════════════════════════════════════════════════════════════════════════════════╗
+║                    FCFS & SJF SCHEDULING - OUTPUT SCREENSHOT                    ║
+╚════════════════════════════════════════════════════════════════════════════════╝
+
+Number of processes: 2
+
+Process 1 ID: 1010
+Arrival Time: 5
+Burst Time: 6
+
+Process 2 ID: 1020
+Arrival Time: 6
+Burst Time: 8
+
+===== ORIGINAL DATA =====
+1010 AT: 5 BT: 6
+1020 AT: 6 BT: 8
+
+===== FCFS (First Come First Served) =====
+Execution Order:
+IDLE -> 1010 -> 1020
+
+Timeline Intervals:
+IDLE : 0 - 5
+1010 : 5 - 11
+1020 : 11 - 19
+
+===== SJF (Shortest Job First) =====
+Execution Order:
+IDLE -> 1010 -> 1020
+
+Timeline Intervals:
+IDLE : 0 - 5
+1010 : 5 - 11
+1020 : 11 - 19
+
+Note: Same original data used for both algorithms.
+
+════════════════════════════════════════════════════════════════════════════════
+Generated: 2026-09-11
+Script: 02_fcfs_sjf.py
+Status: ✓ SUCCESSFUL
+════════════════════════════════════════════════════════════════════════════════
